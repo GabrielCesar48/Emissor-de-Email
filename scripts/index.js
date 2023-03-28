@@ -88,7 +88,7 @@ btnGerarRef.addEventListener('click', (e) => {
                                 </div>
                                 
                 
-                                <div style="text-align: center; margin-top: 50px; margin-botton: 50px;">
+                                <div style="text-align: center; margin-top: 50px; margin-bottom: 50px;">
                                     <a href="https://www.youtube.com/watch?v=0H7GTbJ55eU" target="_blank" style="font-weight: bold; font-size: 20px; color: #00D1E6;">
                                         COMO TROCAR SUA SENHA
                                     </a>
