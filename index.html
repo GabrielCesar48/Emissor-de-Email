@@ -9,33 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="container bg-dark" >
+<body >
     
-    <nav class="navbar bg-black rounded-2">
-        <div class="container text-bg-black">
-          <a class="navbar-brand text-light" href="#">
-            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Gerador de Email RN" width="30" height="24">
+      <nav class="navbar text-bg-dark">
+        <div class="container-fluid text-bg-dark">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo-rn-white.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top text-bg-dark">              
           </a>
+          <span class="text-bg-dark">Gerador de Email</span>
         </div>
       </nav>
  
-      <section class="d-flex justify-content-center mt-5 text-bg-dark mb-5 rounded-5 p-5 border">
-        <form>
+      <section class="container d-flex justify-content-center mt-5 mb-5 rounded-5 p-5 border border-5 text-bg-dark bg-gradient">
+        <form class="w-50">
 
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label text-black">Email Destinatário</label>
-              <input type="email" class="form-control bg-black border-0" id="inputRecipient" aria-describedby="emailHelp" disabled placeholder="aguardando API">
+              <label for="exampleInputEmail1" class="form-label text-white-50">Email Destinatário</label>
+              <input type="email" class="form-control  border-0" id="inputRecipient" aria-describedby="emailHelp" disabled placeholder="aguardando API">
               <div id="emailHelp" class="form-text d-none">We'll never share your email with anyone else.</div>
             </div>
 
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nova credencial</label>
+                <label for="exampleInputEmail1" class="form-label text-white-75">Nova credencial</label>
                 <input type="email" class="form-control" id="inputNewEmail" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text d-none">We'll never share your email with anyone else.</div>
               </div>
 
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nova senha</label>
+                <label for="exampleInputEmail1" class="form-label text-white-75">Nova senha</label>
                 <input type="text" class="form-control" id="inputNewPassword" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text d-none">We'll never share your email with anyone else.</div>
               </div>
@@ -66,15 +67,13 @@
         </button>
       </div>
 
-      <div class="container text-bg-dark mt-5">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top text-bg-dark">
-          <div class="col-md-4 d-flex align-items-center text-bg-dark">
-            <a href="/" class="mb-3 me-2 mb-md-0  text-decoration-none lh-1 text-bg-dark">
+      <div class="text-bg-dark mt-5">
+        <footer class="d-flex flex-wrap justify-content-end align-items-center p-5  border-top text-bg-dark">
+          <div class="col-md-4 d-flex align-items-center text-bg-dark d-flex justify-content-end">
               <svg class="bi text-bg-dark" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
             </a>
             <span class="mb-3 mb-md-0  text-bg-dark">© 2023 Gabriel Pereira</span>
-          </div>
-         
+          </div>         
         </footer>
       </div>
 
