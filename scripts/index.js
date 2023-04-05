@@ -40,7 +40,7 @@ btnGerarRef.addEventListener('click', (e) => {
             
                     <table align="center" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px;">
                         <tr>
-                            <td style="background-image: url(./assets/img/img-email-1920-1080.png); background-color: #2B2B2B; background-size: cover; color: aliceblue; border-radius: 10px; padding: 2% 5%; font-family: 'Roboto', sans-serif;">   
+                            <td style="background-image: url(https://i.ibb.co/whT0Dv4/img-email-1920-1080.png); background-color: #2B2B2B; background-size: cover; color: aliceblue; border-radius: 10px; padding: 2% 5%; font-family: 'Roboto', sans-serif;">   
             
                                 <div style="text-align: center;">
                                     <img src="https://promocao.rntintas.com.br/wp-content/uploads/2021/09/logo-rntintas-branco.png" alt="logo-rn" style="width: 100px; height: 100px; object-fit: contain; display: inline-block;">
