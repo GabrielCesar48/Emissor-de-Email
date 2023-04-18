@@ -64,7 +64,7 @@ btnGerarRef.addEventListener('click', (e) => {
                                     <div style="text-align: center; margin-top: 50px; padding-top: 20px;">
                                         <p style="font-weight: 300; width: 80%; margin: 0 auto;">
                                             <span style="font-weight: bold;">Email:</span>
-                                             <span id="inputEmail">${newEmail}</span>                                            
+                                            <span id="inputEmail" style="color: white; text-decoration: none; font-weight: bold;">${newEmail}</span>
                                             </button> 
                                         </p>                                        
                                     </div>
