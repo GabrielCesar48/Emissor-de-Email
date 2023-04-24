@@ -49,7 +49,7 @@ btnGerarRef.addEventListener('click', (e) => {
                                 <div style="text-align: center; margin-top: 30px;">
                                     <h2 style="font-weight: bold;">Olá,</h2>
                                     <p style="font-weight: 300; width: 80%; margin: 0 auto;">
-                                        Abaixo, você encontrará seu novo nome de usuário e senha para acessar a plataforma <span style="color: white; font-weight: bold;">BIMACHINE</span>. Caso tenha alguma dúvida ou precise de ajuda, sinta-se à vontade para me contatar através do Spark ou responder a este e-mail. 
+                                    Aqui estão suas novas informações de login para acessar a plataforma <span style="color: white; font-weight: bold;">BIMACHINE</span>. Se você tiver alguma dúvida ou precisar de ajuda, por favor, não hesite em entrar em contato comigo por meio do Spark, telefone (35) 2105-3070, ou respondendo a este e-mail. 
                                     </p>
                                 </div>
             
